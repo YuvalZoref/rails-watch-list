@@ -1,12 +1,18 @@
-.navbar-lewagon {
+.navbar-filmpage {
   justify-content: space-between;
-  background: white;
+  background-color: white;
+  transition: 0.5s background-color ease;
+  border: 4px;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-filmpage-white {
+  background-color: white;
+}
+
+.navbar-filmpage .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-filmpage .navbar-brand img {
   width: 40px;
 }

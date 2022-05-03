@@ -1,0 +1,27 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-filmpage fixed-top">
+  <div class="container-fluid">
+    <%= link_to "#", class: "navbar-brand" do %>
+      <%= image_tag "https://media.istockphoto.com/photos/rendering-cloud-with-glowing-neon-lights-on-dark-background-picture-id1279831347?k=20&m=1279831347&s=612x612&w=0&h=hxl93RT9a2Yd5ewxH25x_73xv-7OpbYCC23ElrN5AUE=" %>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item active">
+            <%= link_to "My lists", "root path!!", class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+            <%= link_to "New list", "root path!!", class: "nav-link" %>
+          </li>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="navbar-moviepage" data-controller="navbar" data-action="scroll@window->navbar#updateNavbar" >
+</div>
